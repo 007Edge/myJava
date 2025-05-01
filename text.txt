@@ -1,2 +1,0 @@
-Writing into file using PrintWriter
-no new line will be added: Printing numbers 34.43

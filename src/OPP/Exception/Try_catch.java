@@ -17,6 +17,7 @@ public class Try_catch {
             System.out.println("some error occurred");
             return;
         }
+
         finally {    // this block always execute, even if return statement is written above it
             System.out.println(div);
         }

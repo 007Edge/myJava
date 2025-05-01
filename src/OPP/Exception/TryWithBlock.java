@@ -5,12 +5,17 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class TryWithBlock {
+
     public static void main(String[] args) {
         try(BufferedReader reader = new BufferedReader(new FileReader("example.txt"))) {
-            boolean line;
-            while ((line = reader.readLine() != null)) {
+            String line;
+            while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
+
+        }
+        catch (ArithmeticException e) {
+            System.out.println(e);
         }
         catch (IOException e) {
             System.out.println("Exception caught");

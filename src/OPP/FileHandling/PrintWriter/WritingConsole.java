@@ -1,10 +1,10 @@
-package OPP.FileHandling.Buffered;
+package OPP.FileHandling.PrintWriter;
 
 import java.io.PrintWriter;
 
-public class OutConsole {
+public class WritingConsole {
     public static void main(String[] args) {
-        PrintWriter r = new PrintWriter(System.out);
+        PrintWriter r = new PrintWriter(System.out,true);  // true is used for autoFlush
         r.println("Hi");
         r.print("my name is Shivam and there will be no nextline: ");
         r.print('g');

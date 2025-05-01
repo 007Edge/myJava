@@ -1,4 +1,4 @@
-package OPP.FileHandling.Buffered;
+package OPP.FileHandling.PrintWriter;
 
 import java.io.IOException;
 import java.io.PrintWriter;

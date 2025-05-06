@@ -1,7 +1,9 @@
 package OPP.Generics.Bound;
 
 class Box <T extends Number> {
+    // Bounded Type parameters
     // Number class is upperBound, that means we can only use classes like Integer and Double that comes under Number while creating object
+    // Or we can say, the class we are allowed to use are the classes that extend Number so Type String we produce error
     T num;
     Box(T num) {
         System.out.println(num);

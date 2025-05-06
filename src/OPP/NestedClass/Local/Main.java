@@ -16,6 +16,7 @@ class Outer {
         LocalInner obj = new LocalInner();
         obj.display();
         // n = 11;  cannot change the value because it is effectively final i.e. the value of n never changed.
+        // note if n was the variable of Outer class then we were allowed to change the value of n.
 
     }
 }
